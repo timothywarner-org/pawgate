@@ -63,7 +63,7 @@ class CatLockCore:
 
     def start(self) -> None:
         check_lockfile()
-        UpdateWindow(self).prompt_update()
+        # UpdateWindow(self).prompt_update()  # Suppressed update prompt at launch
         # hack to prevent right ctrl sticking
         keyboard.remap_key('right ctrl', 'left ctrl')
         while self.program_running:

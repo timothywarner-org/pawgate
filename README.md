@@ -13,6 +13,12 @@
 PawGate is a simple utility designed to prevent accidental keyboard input, particularly when your feline friend decides to grace your workspace.
 Currently only supported on **Windows**.
 
+## Attribution
+
+PawGate is a fork of [CatLock](https://github.com/richiehowelll/cat-lock) by [@richiehowelll](https://github.com/richiehowelll). The original project provided the foundation for this utility. This fork adds documentation, testing infrastructure, CI/CD, and a rebrand while maintaining GPL v3 licensing as required.
+
+If you appreciate the original work, please consider [supporting the original author](https://buymeacoffee.com/richiehowelll).
+
 ## Features
 - Lock your keyboard with a hotkey (Ctrl+L by default)
 - Semi-transparent overlay shows keyboard is locked while you monitor your screen
@@ -95,13 +101,12 @@ Future enhancements planned for PawGate. Contributions welcome!
 
 ---
 
-## Support
-If you found this project helpful or want to support my work, consider buying me a coffee!
+## Support the Original Author
 
-<a href="https://buymeacoffee.com/richiehowelll" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yourusername&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+PawGate builds on the work of [@richiehowelll](https://github.com/richiehowelll). If you find this utility helpful, consider supporting the original creator:
 
-Your contributions will help maintain and improve this project. Thank you!
+<a href="https://buymeacoffee.com/richiehowelll" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=richiehowelll&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
 
 ## Tested by:
 
-<img src="https://i.imgur.com/AuEkoPy.jpeg" width="50%" height="50%"/>
+Fiona the Cat 🐱

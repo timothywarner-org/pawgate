@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(test:*)",
+      "Bash(pip show:*)",
+      "Bash(.venv/Scripts/pip:*)",
+      "Bash(.venv/Scripts/python -m pip install --upgrade pip)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(build.bat)",
+      "Bash(cmd.exe //c build.bat)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/ -v --tb=short)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd comprehensive documentation, testing infrastructure, and CI/CD\n\nMajor additions:\n- ARCHITECTURE.md: Technical documentation with component overview\n- CONTRIBUTING.md: Developer guide with code style, testing, and PR process\n- USAGE.md: User-facing documentation with installation and usage guides\n- PORTING.md: Notes for future C# port to PowerToys\n- GitHub Actions workflows (ci.yml, release.yml) for automated testing and releases\n\nTesting:\n- pytest.ini and requirements-dev.txt for test configuration\n- Smoke tests for import validation\n- Unit tests for config and lockfile handling\n- Integration tests for keyboard controller\n- Shared fixtures in conftest.py with proper mocking\n\nCode improvements:\n- Added WHY-focused comments throughout all modules\n- Fixed unicode escape errors in path_util.py docstrings\n- Removed unused update_window.py and update_util.py modules\n- Updated build.bat with modern PyInstaller options\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")"
+    ]
+  }
+}
